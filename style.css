@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+
+
+
+
+.add:active{
+    transform: scale(0.98)
+}
+.header-udef{
+    
+    height:100px;
+    background-color:#F4DB78;
+    color:rgb(15, 15, 15);
+    box-shadow:0px 10px 16px rgb(248,247,247);
+    padding: 2px 5px 2px 5px;
+
+}
+.items-text-udef{
+    
+    font-family:fantasy;
+    
+    font-size: 50px;
+    margin-left: 5px;
+    position: relative;
+    top:5px;
+    left: 1%;
+    
+    
+}
+
+
+.button-div{
+    margin-top: 10px;
+    height: 100px;
+  
+}
+button.learn-more{
+    width:12rem;
+    height:auto
+}
+button.learn-more.circle{
+    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.625rem;
+  
+  
+
+}
+
+
+button{
+    position:relative;
+    display: inline-block;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more{
+    width: 12rem;
+    height: auto;
+}
+button.learn-more.circle.icon{
+    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position:absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    background: black;
+    
+}
+button.learn-more.circle.icon.arrow{
+    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
+    left:0.625rem;
+    width:1.125rem;
+    height:0.125rem;
+    background: none;
+}
+button.learn-more.button-text{
+    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin : 0 0 0 1.85rem;
+    color : #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+ 
+
+}
+
+.note{
+    background-color: rgb(252, 252, 249);
+    margin: 100px 20px;
+    height:200px;
+    width:400px;
+    overflow-y: scroll;
+    margin-top: 7rem;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0.1),
+    inset 0 --1px 0 rgba(0,0,0.1);
+    float:left
+}
+
+.heading h1{
+    line-height:80px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.note .operation{
+    display:flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .operation button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size:1rem; 
+    margin-left: 00.5rem;
+}
+.note textarea{
+ outline: none;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 1.2rem;
+ border: none;
+ height:300px;
+ width:100px;
+ padding:2px;
+
+}
+
+.fa-edit,.fa-trash-alt{
+    color:white;
+    padding: 10px;
+    background-color: teal;
+    border-radius: 100%;
+}
+.fa-trash-alt{
+    background-color: tomato;
+}
+
+.fa-edit:hover{
+    background-color:rgb(244, 248, 244) ;
+    color:rgb(55, 212, 55)
+}
+.fa-trash-alt:hover{
+    background-color:rgb(244, 248, 244) ;
+    color:rgb(236, 23, 16)
+}
+.hidden{
+    display:none;
+}
+
+#text{
+    background-color:blanchedalmond;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-position{
+    display: flex;
+    float: right;
+    margin: 10px;
+    justify-content: right;
+}
+.footer{
+    background-color: yellow;
+    height: 50px;
+}
+
+.footer-title{
+    background-color: tomato;
+}
+.footer-text{
+    background-color: turquoise;
+}
+ .main{
+     height:100%;
+ }
+
+
