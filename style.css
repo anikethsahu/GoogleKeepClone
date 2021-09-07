@@ -1,3 +1,4 @@
+/* CSS */
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +6,9 @@
     outline: none;
 }
 
-
-
-
-
-
-.add:active{
-    transform: scale(0.98)
-}
 .header-udef{
     
-    height:100px;
+    height:10%;
     background-color:#F4DB78;
     color:rgb(15, 15, 15);
     box-shadow:0px 10px 16px rgb(248,247,247);
@@ -30,34 +23,8 @@
     margin-left: 5px;
     position: relative;
     top:5px;
-    left: 1%;
-    
-    
+    left: 1%;   
 }
-
-
-.button-div{
-    margin-top: 10px;
-    height: 100px;
-  
-}
-button.learn-more{
-    width:12rem;
-    height:auto
-}
-button.learn-more.circle{
-    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
-    position: relative;
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 1.625rem;
-  
-  
-
-}
-
-
 button{
     position:relative;
     display: inline-block;
@@ -71,44 +38,6 @@ button{
     font-family: inherit;
 }
 
-button.learn-more{
-    width: 12rem;
-    height: auto;
-}
-button.learn-more.circle.icon{
-    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
-    position:absolute;
-    top:0;
-    bottom: 0;
-    margin: auto;
-    background: black;
-    
-}
-button.learn-more.circle.icon.arrow{
-    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
-    left:0.625rem;
-    width:1.125rem;
-    height:0.125rem;
-    background: none;
-}
-button.learn-more.button-text{
-    transition: all 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0.75rem 0;
-    margin : 0 0 0 1.85rem;
-    color : #282936;
-    font-weight: 700;
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
- 
-
-}
-
 .note{
     background-color: rgb(252, 252, 249);
     margin: 100px 20px;
@@ -119,12 +48,6 @@ button.learn-more.button-text{
     box-shadow: inset 1px 1px 0 rgba(0,0,0.1),
     inset 0 --1px 0 rgba(0,0,0.1);
     float:left
-}
-
-.heading h1{
-    line-height:80px;
-    margin-left: 5px;
-    font-weight: 400;
 }
 
 .note .operation{
@@ -141,6 +64,8 @@ button.learn-more.button-text{
     font-size:1rem; 
     margin-left: 00.5rem;
 }
+
+
 .note textarea{
  outline: none;
  font-family: Georgia, 'Times New Roman', Times, serif;
@@ -184,21 +109,33 @@ button.learn-more.button-text{
     display: flex;
     float: right;
     margin: 10px;
-    justify-content: right;
-}
-.footer{
-    background-color: yellow;
-    height: 50px;
+    
 }
 
-.footer-title{
-    background-color: tomato;
+@media screen and (max-width:650px) {
+    .items-text-udef{
+        font-size: 25px;
+        margin-left: 2.5px;
+        position: relative;
+        top: 2.5px;
+        left:0.5%;
+    }
+
+    img{
+        width: 80px;
+       
+    }
+
+    .button{
+        display: flex;
+        float: left;
+        justify-content: left;
+        margin: 10px;
+        
+    }
+    
 }
-.footer-text{
-    background-color: turquoise;
-}
- .main{
-     height:100%;
- }
+
+
 
 
